@@ -1,23 +1,25 @@
 {
-  "name": "liquid-cli",
+  "name": "@tannerholm/liquid-cli",
   "version": "1.0.0",
   "description": "cli for liquid starter theme",
   "main": "index.js",
   "scripts": {
-    "test": "return 'hello world'"
+    "liquid": "bin/liquid.sh",
+    "build": "bin/liquid-build.sh",
+    "trynode": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TannerHolm/liquid-cli.git"
   },
   "keywords": [
-    "Liquid",
-    "CLI"
+    "liquid",
+    "cli"
   ],
   "author": "Fluid Development",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TannerHolm/liquid-cli/issues"
+    "url": "https://github.com/getfluid/liquid-cli/issues"
   },
-  "homepage": "https://github.com/TannerHolm/liquid-cli#readme"
+  "homepage": "https://github.com/getfluid/liquid-cli#readme"
 }
